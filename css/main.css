@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+body {
+    background-color: #27D94D;
+    font-family: 'Sansita', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+h2,h3 {
+	text-align: center;
+	color:white;
+}
+.icon{
+	text-align: center;
+	
+}
+.group{
+	text-align: center;
+}
+.btn-primary{
+	padding: 15px;
+	margin: 15px;
+	border:2px solid yellow;
+	font-size:30px;
+}
