@@ -18,7 +18,7 @@ function showPosition(position,lat,lon) {
 
 var gettingJSON = function(lat,lon){
         
-        $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&APPID=4e1e14669a3df8f9829a1a9074ec22e8",function(json){
+        $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+lon+"&APPID=4e1e14669a3df8f9829a1a9074ec22e8",function(json){
             tempC=Math.round(json.main.temp - 273.15);
             tempF=(tempC*1.8) + 32;
             country=json.sys.country;
